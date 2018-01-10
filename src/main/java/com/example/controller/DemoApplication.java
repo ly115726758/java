@@ -66,7 +66,7 @@ public class DemoApplication {
         } else {
             mav.setViewName("index2");
         }
-
+        System.out.println("aa");
         return mav;
     }
 
